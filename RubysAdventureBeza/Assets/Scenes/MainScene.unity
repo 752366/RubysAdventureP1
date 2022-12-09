@@ -2189,6 +2189,7 @@ GameObject:
   - component: {fileID: 424866895}
   - component: {fileID: 424866897}
   - component: {fileID: 424866896}
+  - component: {fileID: 424866898}
   m_Layer: 0
   m_Name: Tilemap
   m_TagString: Untagged
@@ -83901,6 +83902,26 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!95 &424866898
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 424866891}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c60f37097b6078845b3c62bfb5647caa, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &443398280
 PrefabInstance:
   m_ObjectHideFlags: 0
